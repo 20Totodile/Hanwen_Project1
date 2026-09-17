@@ -7,13 +7,33 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: MAT_Meat_Red
+  m_Name: Toon Shader
   m_Shader: {fileID: 4800000, guid: cdd39c097f8297d4d86e6ae5f13727bf, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords:
   - _SHADING_COLOR
-  m_InvalidKeywords: []
+  m_InvalidKeywords:
+  - _ANCHORSSTOOBJECTSORIGIN_ON
+  - _CASTSHADOWSANCHORSSTOOBJECTSORIGIN_ON
+  - _CASTSHADOWSSSCAMERADISTANCESCALED_ON
+  - _ENABLEANTIALIASING_ON
+  - _ENABLECASTSHADOWS_ON
+  - _ENABLESHADINGSTYLING_ON
+  - _ENABLESHADOWS_ON
+  - _ENABLETOONSHADING_ON
+  - _RIMAFFECTEDBYNORMALMAP_ON
+  - _RIMANCHORSSTOOBJECTSORIGIN_ON
+  - _RIMSSCAMERADISTANCESCALED_ON
+  - _SHADINGAFFECTEDBYNORMALMAP_ON
+  - _SPECULARAFFECTEDBYNORMALMAP_ON
+  - _SPECULARANCHORSSTOOBJECTSORIGIN_ON
+  - _SPECULARSSCAMERADISTANCESCALED_ON
+  - _SPECULARUSELIGHTCOLORS_ON
+  - _SSCAMERADISTANCESCALED_ON
+  - _SUMLIGHTSBEFOREPOSTERIZATION_ON
+  - _SYNCWITHRIM_ON
+  - _SYNCWITHSPECULAR_ON
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -111,7 +131,7 @@ Material:
     - _CastShadowsNoise1Size: 1
     - _CastShadowsNoise2Seed: 1
     - _CastShadowsNoiseIntensity: 0
-    - _CastShadowsNumberOfCellsHatching: 2
+    - _CastShadowsNumberOfCellsHatching: 1
     - _CastShadowsOpacityRandomIntensity: 0
     - _CastShadowsOpacityRandomMode: 0
     - _CastShadowsPolarCenterMode: 0
@@ -146,12 +166,12 @@ Material:
     - _EnableSpecular: 0
     - _EnableSpecularRandomizer: 0
     - _EnableSpecularStyling: 0
-    - _EnableStyling: 1
+    - _EnableStyling: 0
     - _EnableStylingDistanceFade: 0
     - _EnableToonShading: 1
     - _EnvironmentReflections: 1
     - _GlossMapScale: 1
-    - _Glossiness: 0.18
+    - _Glossiness: 0.5
     - _GlossyReflections: 1
     - _GradientBlendFactor: 1
     - _GradientBlending: 2
@@ -265,9 +285,9 @@ Material:
     - _StylingCastShadowsRotationBetweenCells: 30
     - _StylingCastShadowsSmoothness: 1
     - _StylingCastShadowsSyncWithOtherStyling: 1
-    - _StylingCastShadowsThickness: 0.9
+    - _StylingCastShadowsThickness: 0.8
     - _StylingCastShadowsThicknessControl: 0
-    - _StylingCastShadowsThicknessFalloff: 0.5
+    - _StylingCastShadowsThicknessFalloff: 0.1
     - _StylingDFFalloff: 0
     - _StylingDFStartingDistance: 0
     - _StylingDistanceFadeValue: 0
@@ -322,7 +342,7 @@ Material:
     - _StylingSpecularThicknessControl: 0
     - _StylingSpecularThicknessFalloff: 0.1
     - _StylingSpecularUseLightColors: 0
-    - _StylingTerminatorPosition: 0.392
+    - _StylingTerminatorPosition: 0
     - _SumLightsBeforePosterization: 1
     - _Surface: 0
     - _SyncWithLightPartitioning: 0
@@ -340,10 +360,10 @@ Material:
     - _WorkflowMode: 1
     - _ZWrite: 1
     m_Colors:
-    - _BaseColor: {r: 0.8238993, g: 0.34458673, b: 0.34458673, a: 1}
+    - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
     - _CastShadowColor: {r: 0, g: 0, b: 0, a: 1}
     - _CastShadowsPolarCenter: {r: 0, g: 0, b: 0, a: 1}
-    - _Color: {r: 0.78, g: 0.2, b: 0.18, a: 1}
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _CoreShadowColor: {r: 0, g: 0, b: 0, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _FormShadowColor: {r: 0, g: 0, b: 0, a: 1}
